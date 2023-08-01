@@ -18,7 +18,7 @@
 //     fo
 // });
 
-function login(){
+/* function login(){
     let contador = 0;//el contador inicializado en 0
     let contrasenia = prompt("Ingrese su contraseña");// el pedido inicial de contraseña
 
@@ -37,13 +37,12 @@ function login(){
 }
 
   //Se llama a la funcion para que inicie.
-//login();
-//que sea menor no, que sea igual
-//NO SEA MENOR IGUA
-let edad = 0;
+login(); */
 
-while(edad < 6){
-    edad += 2;
+//aunque la cont fuera pepe desde la inicializacion
+
+let nombre = "Carlos";
+
+for(let aux of nombre){
+    console.log(aux);
 }
-console.log(edad);
-
