@@ -18,8 +18,32 @@
 //     fo
 // });
 
-function suma(a, b){
-    return a + b;
+function login(){
+    let contador = 0;//el contador inicializado en 0
+    let contrasenia = prompt("Ingrese su contraseña");// el pedido inicial de contraseña
+
+    //Si la contraseña es incorrecta se entra en el while y se le suma 1 al contador
+    while(contador < 3 && contrasenia !== "pepe"){
+        contador++;
+        contrasenia = prompt("Contraseña incorrecta, intentelo nuevamente\nNumero de intentos restantes " + (3 - contador));
+    }
+    //si el contador es 3 se sale del bucle y se toma como fallido el intento de login
+    if(contador === 3){
+        alert("Agotaste tus intentos, cuebta bloqueada");
+        //Si no se terminaron los intentos se loguea de manera exitosa
+    } else{
+        alert("Iniciando sesion");
+    }
 }
 
-console.log(suma(5,3));
+  //Se llama a la funcion para que inicie.
+//login();
+//que sea menor no, que sea igual
+//NO SEA MENOR IGUA
+let edad = 0;
+
+while(edad < 6){
+    edad += 2;
+}
+console.log(edad);
+
