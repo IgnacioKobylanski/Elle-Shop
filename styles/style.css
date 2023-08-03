@@ -10,10 +10,10 @@ main{
 }
 footer {
    
-    height: 10vh;
+    min-height: 10vh;
     background-color: #151719;
   }
-  footer h2, h4, a,p{
+  footer h2, h4, a,p, li{
     color: white;
   }
 .categorias{
