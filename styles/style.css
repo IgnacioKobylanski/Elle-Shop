@@ -16,21 +16,19 @@ footer {
   footer h2, h4, a,p, li{
     color: white;
   }
-.categorias{
+.sales{
     background-color: #fff; /* Establece el color de fondo blanco */
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    width: 100%;
 }
 #saleImg{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     object-fit: cover;
     height: 20rem;
-    object-position: 50%;
-}
-.categorias{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    object-position: 20% 70%;
 }
