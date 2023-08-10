@@ -17,18 +17,22 @@ footer {
     color: white;
   }
 .sales{
+    display: flex;
+    justify-content: center;
     background-color: #fff; /* Establece el color de fondo blanco */
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     width: 100%;
+
 }
 #saleImg{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 60%;
     object-fit: cover;
-    height: 20rem;
+    height: 40rem;
     object-position: 20% 70%;
+    justify-content: center;
 }
