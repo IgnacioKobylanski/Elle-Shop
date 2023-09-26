@@ -39,3 +39,27 @@ footer {
       object-position: center; /* Centra la imagen */
       justify-content: center;
   }
+.categorias{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  padding-bottom: 5rem
+}
+
+.celulares{
+  height: 15rem;
+  width: 15rem;
+  background-color: red;
+}
+.pc{
+  height: 15rem;
+  width: 15rem;
+  background-color: blue;
+}
+.electrodomesticos{
+  height: 15rem;
+  width: 15rem;
+  background-color: yellow;
+}
