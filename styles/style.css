@@ -39,22 +39,24 @@ footer {
       object-position: center; /* Centra la imagen */
       justify-content: center;
   }
-.categorias{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 5rem;
-  padding-bottom: 5rem
+  .categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    padding-bottom: 5rem;
   
-  
-}
+  }
 
 .celulares{
   display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  object-fit: cover;
   height: 15rem;
   width: 15rem;
-  background-color: orangered;
+  background-color: white;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .pc{
