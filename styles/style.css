@@ -59,7 +59,11 @@ footer {
   background-color: white;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 .pc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 15rem;
   width: 15rem;
   background-color: blue;
